@@ -40,3 +40,15 @@ Vrijdag 13-2-2026 :
 gedaan: was ai cursus
 liep vast op: x
 ga doen: heb basis van de kiosk gemaakt. css, js en php en html geschreven. meerdere files toegevoegd. 
+
+weekje vakantie 
+
+Dinsdag 24-2-2026 : 
+gedaan: medische afspraak 
+liep vast op: medische afspraak 
+ga doen: git medische afspraak 
+
+Woensdag 25-2-2026 : 
+gedaan: heb basis van de kiosk gemaakt. css, js en php en html geschreven. meerdere files toegevoegd. 
+liep vast op: 
+ga doen: git 

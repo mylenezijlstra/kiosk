@@ -6,10 +6,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="start-screen">
-    <?php include "includes/header.php"; ?>
 
 <div class="start-container">
-    <img src="./assets/img/logo.png" class="logo" alt="Happy Herbivore Logo">
+    <img src="./assets/img/logo (2).png" class="logo" alt="Happy Herbivore Logo">
 
     <h1>Welkom bij Happy Herbivore</h1>
     <h2>Healthy in a Hurry</h2>

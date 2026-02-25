@@ -17,7 +17,6 @@ $total = 0;
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body class="review-screen">
-    <?php include "includes/header.php"; ?>
 
 <h1>Review Your Order</h1>
 
