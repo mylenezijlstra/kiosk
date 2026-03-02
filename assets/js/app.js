@@ -129,6 +129,8 @@ function openProduct(id) {
                     ${translations.add_to_cart}
                 </button>
 
+                <div id="cross-sell-section"></div>
+
                 <button onclick="closePopup()" style="margin-top:10px;">
                     ${translations.close}
                 </button>
@@ -137,7 +139,45 @@ function openProduct(id) {
             document.getElementById('edit-ingredients-btn').onclick = () => {
                 document.getElementById('ingredient-list').style.display = 'block';
             };
+
+            // Load cross-sell suggestions
+            loadCrossSell(p.product_id);
         });
+}
+
+
+// 👉 Cross-sell producten laden
+async function loadCrossSell(productId) {
+    try {
+        const res = await fetch(`/harries-helden-module7.1/api/cross_sell.php?product_id=${productId}`);
+        const products = await res.json();
+
+        const section = document.getElementById('cross-sell-section');
+        if (!products.length) {
+            section.innerHTML = '';
+            return;
+        }
+
+        const cards = products.map(p => `
+            <div class="cross-sell-card">
+                <img src="${p.filename}" alt="${p.name}">
+                <div class="cross-sell-info">
+                    <span class="cross-sell-name">${p.name}</span>
+                    <span class="cross-sell-price">€${parseFloat(p.price).toFixed(2)}</span>
+                </div>
+                <button class="cross-sell-add" onclick="event.stopPropagation(); addToCart(${p.product_id})">+</button>
+            </div>
+        `).join('');
+
+        section.innerHTML = `
+            <div class="cross-sell-container">
+                <h3>🍽️ ${translations.cross_sell_title}</h3>
+                <div class="cross-sell-scroll">${cards}</div>
+            </div>
+        `;
+    } catch (err) {
+        console.error('Failed to load cross-sell products:', err);
+    }
 }
 
 

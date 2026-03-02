@@ -902,3 +902,99 @@ body {
         transform: translateY(0);
     }
 }
+
+
+/* ===== CROSS-SELL PRODUCTS ===== */
+
+.cross-sell-container {
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+.cross-sell-container h3 {
+    margin: 0 0 14px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.cross-sell-scroll {
+    display: flex;
+    gap: 14px;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    scroll-snap-type: x mandatory;
+}
+
+.cross-sell-scroll::-webkit-scrollbar {
+    height: 5px;
+}
+
+.cross-sell-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 3px;
+}
+
+.cross-sell-card {
+    flex: 0 0 160px;
+    background: #f9f9f9;
+    border-radius: 14px;
+    overflow: hidden;
+    scroll-snap-align: start;
+    transition: transform 0.2s, box-shadow 0.2s;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid transparent;
+}
+
+.cross-sell-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    border-color: #8bc34a;
+}
+
+.cross-sell-card img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+
+.cross-sell-info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.cross-sell-name {
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    line-height: 1.2;
+}
+
+.cross-sell-price {
+    font-size: 14px;
+    color: #00796b;
+    font-weight: bold;
+}
+
+.cross-sell-add {
+    margin: 0 10px 10px;
+    background: #8bc34a;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+    align-self: flex-end;
+    transition: 0.2s;
+}
+
+.cross-sell-add:hover {
+    background: #7cb342;
+    transform: scale(1.1);
+}

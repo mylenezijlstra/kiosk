@@ -50,4 +50,7 @@ return [
     "time_just_now" => "zojuist",
     "time_min_ago" => "min geleden",
 
+    // cross-sell
+    "cross_sell_title" => "Lekker erbij",
+
 ];

@@ -51,4 +51,7 @@ return [
     "time_just_now" => "just now",
     "time_min_ago" => "min ago",
 
+    // cross-sell
+    "cross_sell_title" => "Goes well with",
+
 ];
