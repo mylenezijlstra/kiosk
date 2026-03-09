@@ -54,4 +54,11 @@ return [
     // cross-sell
     "cross_sell_title" => "Goes well with",
 
+    // receipt printing
+    "order_summary" => "Your order",
+    "receipt_printing" => "Printing receipt...",
+    "receipt_print_btn" => "Print Receipt",
+    "receipt_success" => "Receipt printed!",
+    "receipt_failed" => "Printer not found",
+
 ];

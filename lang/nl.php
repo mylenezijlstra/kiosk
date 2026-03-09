@@ -53,4 +53,11 @@ return [
     // cross-sell
     "cross_sell_title" => "Lekker erbij",
 
+    // receipt printing
+    "order_summary" => "Jouw bestelling",
+    "receipt_printing" => "Bonnetje wordt geprint...",
+    "receipt_print_btn" => "Print Bonnetje",
+    "receipt_success" => "Bonnetje geprint!",
+    "receipt_failed" => "Printer niet gevonden",
+
 ];
