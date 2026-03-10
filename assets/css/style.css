@@ -3,7 +3,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Arial';
+    font-family: 'Renos-Rough', Arial, sans-serif;
     height: 100vh;
     overflow: hidden;
     background: #f2f2f2;
@@ -257,7 +257,7 @@ body {
     align-items: center;
     height: 100vh;
     background: linear-gradient(135deg, #ff8c42, #ff6a00);
-    font-family: Arial, sans-serif;
+    font-family: 'Renos-Rough', Arial, sans-serif;
     color: white;
 }
 
@@ -383,7 +383,7 @@ body {
 
 .review-screen {
     background: #f4f4f4;
-    font-family: Arial, sans-serif;
+    font-family: 'Renos-Rough', Arial, sans-serif;
     padding: 40px;
     overflow-y: auto;
     height: 100vh;
@@ -575,7 +575,7 @@ body {
     justify-content: center;
     align-items: center;
     background: linear-gradient(135deg, #ff8c42, #ff6a00);
-    font-family: Arial, sans-serif;
+    font-family: 'Renos-Rough', Arial, sans-serif;
     color: white;
     text-align: center;
 }
@@ -792,7 +792,7 @@ body {
 .kitchen-screen {
     background: #1a1a2e;
     color: #eee;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Renos-Rough', Arial, sans-serif;
     height: 100vh;
     overflow: hidden;
     display: flex;
