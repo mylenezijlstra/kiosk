@@ -9,7 +9,7 @@ Youtube link: https://youtube.com/shorts/jveal3KOxwU?si=NTIPEQSE85HA4sP7
 
 # stand-up 
 
-Op maandag en donderdag geen beroeps
+Op maandag en donderdag geen beroeps 
 
 Dinsdag 03-02-2026 : 
 gedaan: x

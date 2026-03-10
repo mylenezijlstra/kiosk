@@ -2,8 +2,9 @@
 header("Content-Type: application/json");
 include "../includes/db.php";
 
-$cat = isset($_GET['cat']) ? intval($_GET['cat']) : 1;
 
+
+$cat = isset($_GET['cat']) ? intval($_GET['cat']) : 1;
 $sql = "
 SELECT p.*, i.filename 
 FROM products p
@@ -17,6 +18,8 @@ $rows = [];
 
 while($r = $result->fetch_assoc()){
     $rows[] = $r;
-}
-
-echo json_encode($rows);
+    }
+    
+    echo json_encode($rows);
+    
+    
