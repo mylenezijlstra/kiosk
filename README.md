@@ -7,9 +7,9 @@ https://trello.com/b/zWkIxt89/happy-herbefor
 De video staat voor het gemak wel op de gitrepo, maar de kwaliteit is niet zo goed omdat ik de video van 336MB naar minder dan 25MB moest maken. Daarom heb ik de video ook prive op youtube geplaatst voor betere kwaliteit. 
 Youtube link: https://youtube.com/shorts/jveal3KOxwU?si=NTIPEQSE85HA4sP7 
 
-# stand-up 
+# stand-up
 
-Op maandag en donderdag geen beroeps 
+Op maandag en donderdag geen beroeps
 
 Dinsdag 03-02-2026 : 
 gedaan: x
