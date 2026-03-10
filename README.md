@@ -56,6 +56,10 @@ https://trello.com/b/zWkIxt89/happy-herbefor
 De video staat voor het gemak wel op de gitrepo, maar de kwaliteit is niet zo goed omdat ik de video van 336MB naar minder dan 25MB moest maken. Daarom heb ik de video ook prive op youtube geplaatst voor betere kwaliteit. 
 Youtube link: https://youtube.com/shorts/jveal3KOxwU?si=NTIPEQSE85HA4sP7 
 
+# samenwerking uitleg
+
+Ik heb deze opdracht alleen gewerkt. Ik wilde deze opdracht samen met Iris maken, maar die was helaas te vaak afwezig en kreeg hierdoor een vervangende opdracht. Dit is daarom de reden dat ik alleen heb gewerkt. 
+
 # stand-up
 
 Op maandag en donderdag geen beroeps
