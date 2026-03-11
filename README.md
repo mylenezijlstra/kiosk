@@ -38,8 +38,6 @@ The kiosk communicates with a PHP API that handles:
 - cross-sell suggestions
 - receipt generation
 
-When a user visits the website URL, the application automatically loads the homepage (index.php). The web application runs on an online server with a connected database and functions without errors. All features are available immediately after loading the page.
-
 This project is created for educational purposes. 
 
 
